@@ -12,8 +12,16 @@ Static site. Six self-contained HTML pages, no build step needed to deploy, no n
 ## 3D layer
 
 Every page carries a small WebGL renderer (k3d.js, bundled inside the page) that draws
-the glossy 3D objects: the hero toys, the studio shots, the lifted project covers and the
-contact bubbles. Objects follow the cursor, spin faster on hover and bounce when clicked.
+the glossy 3D objects: the hero toys, the studio shots, the lifted project covers, the
+About fan cards, the micro:bit boards, the line-follower robot, the service icons, and the
+contact and banner scenes (cards, rocket, orbiting toolkit, star).
+
+- Objects follow the cursor and spin faster on hover.
+- Drag a scene with the mouse to spin it; let go and it springs back.
+- Click or tap an empty spot to pop a burst of 3D confetti.
+- Scenes spring into place as they scroll into view.
+- Easter egg: the Konami code (↑ ↑ ↓ ↓ ← → ← → B A) or typing "kanawa".
+
 On devices without WebGL, or with "reduce motion" switched on, the page falls back to the
 original flat design or a still 3D frame.
 
